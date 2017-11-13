@@ -22,5 +22,6 @@ typedef struct {
 
 int criaMatriz(matrizPBN* matriz, int N);
 int printaMatriz(matrizPBN* matriz, int N);
+int setaAdjacencia(matrizPBN* matriz, int n1, int n2);
 
 #endif /* matrizPBN_h */

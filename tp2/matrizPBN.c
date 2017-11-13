@@ -51,3 +51,17 @@ int printaMatriz(matrizPBN* matriz, int N) {
     
     return 1;
 }
+
+int setaAdjacencia(matrizPBN* matriz, int n1, int n2) {
+    if (n1 == n2) {
+        printf("Entrada de adjacencia inválida! \n");
+        return 0;
+    }
+    n1 -= 1;
+    n2 -= 1;
+
+    matriz->valores[n1][n2] = 1;
+    matriz->valores[n2][n1] = 1;
+    
+    return 1;
+}
