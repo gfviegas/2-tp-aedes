@@ -28,6 +28,7 @@
 		233EBF8E1FB8B13F0097FEC8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		233EBF951FB8F8C50097FEC8 /* matrizPBN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrizPBN.c; sourceTree = "<group>"; };
 		233EBF961FB8F8C50097FEC8 /* matrizPBN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrizPBN.h; sourceTree = "<group>"; };
+		233EBF981FBA84200097FEC8 /* n7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = n7.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		233EBF8D1FB8B13F0097FEC8 /* tp2 */ = {
 			isa = PBXGroup;
 			children = (
+				233EBF981FBA84200097FEC8 /* n7.txt */,
 				233EBF8E1FB8B13F0097FEC8 /* main.c */,
 				233EBF951FB8F8C50097FEC8 /* matrizPBN.c */,
 				233EBF961FB8F8C50097FEC8 /* matrizPBN.h */,
